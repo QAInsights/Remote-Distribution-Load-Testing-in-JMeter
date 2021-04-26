@@ -14,3 +14,11 @@ Following are the troubleshooting steps to implement remote distribution load te
 * Place the generated certificate in all the worker nodes
 * If the test plan uses, plugins, make sure it is available in the worker nodes.
 * Troubleshoot the remote testing by disable SSL in `jmeter.properties`
+
+## Windows Troubleshooting
+
+Make sure you enabled only below connections in your network.
+
+![image](https://user-images.githubusercontent.com/2826376/116022784-d9e4ab80-a618-11eb-8654-422820dd2afd.png)
+
+![image](https://user-images.githubusercontent.com/2826376/116022819-ec5ee500-a618-11eb-9bcd-b63d4ee0c526.png)
