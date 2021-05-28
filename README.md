@@ -27,7 +27,7 @@ Make sure you enabled only below connections in your network.
 
 ### Starting Worker Machine
 
-`./jmeter-server -Djava.rmi.server.hostname=Worker_IP`
+`./jmeter-server -Djava.rmi.server.hostname=<Worker_IP>`
 
 **Sample Output**
 
@@ -40,7 +40,7 @@ Created remote object: UnicastServerRef2 [liveRef: [endpoint:[192.168.0.99:4000]
 
 `cd into JMeter folder`
 
-`./jmeter.sh -Djava.rmi.server.hostname=192.168.0.98 -n -t examples/CSVSample.jmx -l Run1.log -R192.168.0.99`
+`./jmeter.sh -Djava.rmi.server.hostname=<Master_IP> -n -t examples/CSVSample.jmx -l Run1.log -R<Worker_IP>`
 
 **Sample Output in Master**
 
