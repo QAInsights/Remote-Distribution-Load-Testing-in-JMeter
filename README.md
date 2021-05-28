@@ -25,7 +25,7 @@ Make sure you enabled only below connections in your network.
 
 ## Commands
 
-## jmeter.properties in Master
+### jmeter.properties in Master
 
 ```
 remote_hosts=<WorkerIP>
@@ -45,7 +45,7 @@ Created remote object: UnicastServerRef2 [liveRef: [endpoint:[192.168.0.99:4000]
 
 ### Starting Tests Master Machine 
 
-## jmeter.properties in Worker
+### jmeter.properties in Worker
 
 ```
 server.rmi.ssl.disable=true
