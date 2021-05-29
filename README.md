@@ -30,6 +30,7 @@ Make sure you enabled only below connections in your network.
 ```
 remote_hosts=<WorkerIP>
 server.rmi.ssl.disable=true
+server.rmi.localport=4000
 ```
   
 ### Starting Worker Machine
@@ -49,6 +50,7 @@ Created remote object: UnicastServerRef2 [liveRef: [endpoint:[192.168.0.99:4000]
 
 ```
 server.rmi.ssl.disable=true
+server.rmi.localport=4000
 ```
 
 `cd into JMeter folder`
