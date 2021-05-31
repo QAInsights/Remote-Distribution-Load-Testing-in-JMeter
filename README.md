@@ -46,7 +46,7 @@ Created remote object: UnicastServerRef2 [liveRef: [endpoint:[192.168.0.99:4000]
 
 ### Starting Tests Master Machine 
 
-### jmeter.properties in Worker
+### jmeter.properties/user.properties in Worker
 
 ```
 server.rmi.ssl.disable=true
