@@ -6,7 +6,7 @@ Following are the troubleshooting steps to implement remote distribution load te
 * Same version of Java in master and worker
 * Master should be able to ping worker, vice-versa
 * Master and Worker machines must be on the same sub-network. Here is the [calculator to check](https://www.meridianoutpost.com/resources/etools/network/two-ips-on-same-network.php).
-* Firewall should be open
+* Firewall should be disabled
 * Anti-virus might need to be turned off
 * Delete the unnessary network interfaces in Windows to avoid the network related issues
 * By default, JMeter uses SSL in RMI.
